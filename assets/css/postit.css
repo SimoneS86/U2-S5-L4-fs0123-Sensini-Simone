@@ -1,5 +1,64 @@
-.lavagna {
-  min-width: 1200px;
-  height: 600px;
+.body {
   background-color: black;
+}
+.lavagna {
+  width: 1200px;
+  height: 625px;
+  margin-inline: auto;
+  margin-top: 50px;
+  background-color: rgb(135, 135, 135);
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.postit {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: xx-large;
+  font-weight: bolder;
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 110px;
+  width: 250px;
+  height: 250px;
+  transition: all 0.3s ease-in-out;
+  transform-origin: center center;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
+.postit:hover {
+  transform: scale(1.2);
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.683);
+}
+.n1 {
+  background-image: linear-gradient(to bottom, #dbd33d, #868686);
+  transform: rotate(-10deg);
+}
+.n2 {
+  background-image: linear-gradient(to bottom, #d98383, #868686);
+  transform: rotate(5deg);
+}
+.n3 {
+  background-image: linear-gradient(to bottom, #ccdc7d, #868686);
+  transform: rotate(-15deg);
+}
+.n4 {
+  background-image: linear-gradient(to bottom, #c6d6a4, #868686);
+  transform: rotate(10deg);
+}
+.n5 {
+  background-image: linear-gradient(to bottom, #dbd33d, #868686);
+  transform: rotate(-5deg);
+}
+.n6 {
+  background-image: linear-gradient(to bottom, #ccdc7d, #868686);
+  transform: rotate(16deg);
+}
+.n7 {
+  background-image: linear-gradient(to bottom, #dae356, #868686);
+  transform: rotate(-8deg);
+}
+.n8 {
+  background-image: linear-gradient(to bottom, #d98383, #868686);
+  transform: rotate(15deg);
 }
